@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Tab from '../component/tab'
-import Drawer from '../component/drawer'
+import Login from '../screen/Login'
+import About from '../screen/About'
+import Profile from '../screen/Profile'
 
-const Stack = createStackNavigator()
+const Stack = createStackNavigator();
 
 export default class navigation extends Component {
   constructor(props) {
@@ -20,7 +21,10 @@ export default class navigation extends Component {
       <>
         <NavigationContainer>
           <Stack.Navigator>
-            <Stack.Screen component={Tab} name={'mainmenu'} options={{ headerShown: false }} />
+            <Stack.Screen name={'login'} component={Login} options={{ headerShown: false }} />
+            <Stack.Screen name={'mainmenu'} component={Tab} options={{ headerShown: false }} />
+            <Stack.Screen name={'about'} component={About} options={{ headerShown: false }} />
+            <Stack.Screen name={'profile'} component={Profile} options={{ headerShown: false }} />
           </Stack.Navigator>
         </NavigationContainer>
       </>
