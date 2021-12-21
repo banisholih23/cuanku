@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926221283240",
+    "project_id": "citra-notif",
+    "storage_bucket": "citra-notif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926221283240:android:c576deed695e673b8bf79d",
+        "android_client_info": {
+          "package_name": "com.androidbaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926221283240-6lii34apdgp7aqm6pjc3i59c158d368h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNTdTJX-sE2qana6QokrFCrt5lzncGEIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926221283240-6lii34apdgp7aqm6pjc3i59c158d368h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,7 +7,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import About from '../screen/About'
 import Profile from '../screen/Profile'
 import Tab from '../component/tab'
-import Login from '../screen/Login'
 import Navigation from '../component/navigation'
 
 const Drawer = createDrawerNavigator();
